@@ -1,0 +1,82 @@
+{%  extends 'base.html'%}
+{% load static %}
+{% block content %}
+<div class="text-center fs-2">
+    About <b class="txt-mycolor">Us <i class="fa-regular fa-address-card"></i></b>
+</div>
+<div class="container">
+    <div class="row bg-light p-3 my-2 mx-1" style="height:400px;">
+        <div class="col-sm-8 fs-5 pt-4">
+            At YourShop, we are more than just an e-commerce platform.
+            We are your trusted partner in the world of online shopping. Our story began in 2023,
+            driven by a passion for delivering convenience, quality, and exceptional customer experiences.<br>
+            <b>Our mission is clear:</b> To empower our customers with a seamless, one-stop shopping experience,
+            so you can spend more time doing what you love. We aim to provide the widest selection of products,
+            the best prices, and unparalleled customer support, all within a few clicks.
+            We take quality seriously. Every product on YourShop is carefully curated and sourced from trusted partners.
+            We ensure that our products meet the highest quality standards, and our rigorous quality control
+            processes guarantee your satisfaction.
+        </div>
+        <div class="col-sm-4 pt-5">
+            <img src="{% static 'images/img_1.png' %}" style="height:270px;">
+        </div>
+    </div>
+
+    <div class="row ourteam">
+        <h4 class="pt-3 text-center">Our <b class="txt-mycolor">Team</b></h4>
+
+        <div class="col-sm-4 aman" >
+            <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-7">
+      <img src="{% static 'images/aman.jpg' %}" class="img-fluid rounded-start" alt="..." style="height:300px">
+    </div>
+    <div class="col-md-5">
+      <div class="card-body">
+        <h5 class="card-title">Er. Aman Maurya</h5>
+        <p class="card-text"><b>Skills:</b>DBMS</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-4 pawan">
+            <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-7">
+      <img src="{% static 'images/pawan.jpg' %}" class="img-fluid rounded-start" alt="..." style="height:300px">
+    </div>
+    <div class="col-md-5">
+      <div class="card-body">
+        <h5 class="card-title">Er. Pawan Kumar</h5>
+        <p class="card-text"><b>Skills:</b>HTML,CSS,JS,PYTHON,DBMS</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+
+
+
+        <div class="col-sm-4 seema">
+            <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-7">
+      <img src="{% static 'images/seema.jpg' %}" class="img-fluid rounded-start" alt="..." style="height:300px">
+    </div>
+    <div class="col-md-5">
+      <div class="card-body">
+        <h5 class="card-title">Er. Seema Yadav</h5>
+        <p class="card-text"><b>Skills:</b>HTML,CSS,BOOTSTRAP,PYTHON,DJANGO,DBMS</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
